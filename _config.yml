@@ -22,8 +22,8 @@ title: python desktop pet tutorial
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
     full tutorial for creating a windows desktop pet using python
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://seebass22.github.io/python-desktop-tutorial" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://seebass22.github.io/python-desktop-pet-tutorial" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Seebass22
 github_username:  Seebass22
 
