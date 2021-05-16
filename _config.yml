@@ -23,8 +23,8 @@ title: python desktop pet tutorial
 description: >- # this means to ignore newlines until "baseurl:"
     full tutorial for creating a windows desktop pet using python
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+url: "https://seebass22.github.io/python-desktop-tutorial" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: Seebass22
 github_username:  Seebass22
 
 # Build settings
