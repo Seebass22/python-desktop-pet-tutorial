@@ -75,8 +75,10 @@ Finally, we'll call the constructor
 pet()
 {% endhighlight %}
 
-![img]({{ site.url }}/assets/placeholder.png)
+
 If you run the code now, and put an image named "placeholder.png" in your folder (such as the stickman here), you should have your character appear in the top left of your screen.
+
+![img]({{ site.url }}/assets/placeholder.png)
 
 Next let's make the character move.
 ## making the character move
@@ -103,6 +105,7 @@ Replace the call to `self.window.geometry()` with this:
         # give window to geometry manager (so it will appear)
         self.label.pack()
 
+        # call update after 10ms
         self.window.after(10, self.update)
 {% endhighlight %}
 
@@ -114,9 +117,10 @@ If you run the code now, the character should move to the right.
 He's not animated yet, so let's do that next.
 
 ## animating the character
-![img]({{ site.url }}/assets/walking_right.gif)
 
 You can use this terrible walking animation I made if you don't have one yet.
+
+![img]({{ site.url }}/assets/walking_right.gif)
 
 Replace the call to `tk.PhotoImage()` in the constructor with the gif:
 {% highlight  python %}
@@ -158,6 +162,7 @@ Lastly, replace the whole update method with this one:
         # give window to geometry manager (so it will appear)
         self.label.pack()
 
+        # call update again after 10ms
         self.window.after(10, self.update)
 {% endhighlight %}
 
@@ -240,6 +245,7 @@ class pet():
         # give window to geometry manager (so it will appear)
         self.label.pack()
 
+        # call update after 10ms
         self.window.after(10, self.update)
 
 pet()
