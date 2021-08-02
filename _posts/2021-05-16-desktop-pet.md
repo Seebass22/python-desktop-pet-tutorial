@@ -128,7 +128,7 @@ This line uses a [list comprehension](https://docs.python.org/3/tutorial/datastr
 to create a list, where every element is the result of calling `tk.PhotoImage()`, with a different index
 to select each frame of the gif. If your gif has a different amount of frames, you'll need change the `range()` call.
 
-We'll want to keep track of the index of the curent frame and assign the frame to a variable.
+We'll want to keep track of the index of the current frame and assign the frame to a variable.
 We'll also want to keep track of how much time has passed since the frame has advanced.
 {% highlight  python %}
         self.frame_index = 0
