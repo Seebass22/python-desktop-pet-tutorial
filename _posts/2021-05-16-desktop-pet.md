@@ -75,7 +75,7 @@ Finally, we'll call the constructor
 pet()
 {% endhighlight %}
 
-![img](/assets/placeholder.png)
+![img]({{ site.url }}/assets/placeholder.png)
 If you run the code now, and put an image named "placeholder.png" in your folder (such as the stickman here), you should have your character appear in the top left of your screen.
 
 Next let's make the character move.
@@ -114,7 +114,7 @@ If you run the code now, the character should move to the right.
 He's not animated yet, so let's do that next.
 
 ## animating the character
-![img](/assets/walking_right.gif)
+![img]({{ site.url }}/assets/walking_right.gif)
 
 You can use this terrible walking animation I made if you don't have one yet.
 
@@ -161,7 +161,7 @@ Lastly, replace the whole update method with this one:
         self.window.after(10, self.update)
 {% endhighlight %}
 
-Here, we check if 50ms have passed, since we last advanced the frame and only advance it then.
+Here we check if 50ms have passed since we last advanced the frame and only advance it then.
 To keep our frame index within the bounds of the amount of frames we have, we use the modulo (`%`)
 operator to get the remainder of an integer division by the number of frames (the length of our array that
 contains the frames).
